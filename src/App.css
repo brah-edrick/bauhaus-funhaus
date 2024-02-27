@@ -1,0 +1,19 @@
+body {
+  margin: auto auto;
+  padding: 0;
+  background: #ECE4DB;
+}
+
+.dot {
+  &:before {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    content: '';
+    display: block;
+    background: #ECE4DB;
+    height: 60%;
+    width: 60%;
+    border-radius: 100%;
+  }
+}
