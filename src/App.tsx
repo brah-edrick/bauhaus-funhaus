@@ -95,7 +95,7 @@ const FlipCard = () => {
   const side1 = useMemo(() => <BauhausTile key={side1Id} />, [flipped]);
   const side2 = useMemo(() => <BauhausTile key={side2Id} />, [!flipped]);
   useEffect(() => {
-    const delay = getRandomNumberFromTo(5000, 60000);
+    const delay = getRandomNumberFromTo(1500, 16000);
     const timer = setTimeout(() => {
       setFlipped(!flipped);
     }, delay);
